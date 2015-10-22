@@ -1,0 +1,19 @@
+<h1> Welcome to RSHA256 </h1>
+
+<h2> RSHA256 helps you to encode everything you like with sha256 algorithm </h2>
+<h2> Also, it'll show you sha1, sha2 and md5 coded strings! </h2>
+<h3> Tip: sha2 and sha256 are the same, but I'll show you both of them! </h3>
+
+<form action='/encoded' method="post">
+ <h3> String to be encoded </h3>
+ <input type="text" name="code">
+ <br/>
+ <input type="submit" value="Code it!">
+</form>
+<br/>
+<font colro=#FF0000> 
+This type of encodings, are usually used for storage of passwords in a database. After you <br/>
+find out the most secure one, you can use it in your project(s). projects like WordPress, <br/>
+Drupal, phpBB, MyBB, etc. are using <strange>MD5</strange> system, but if you want a more </br>
+secure form, you can use <strange><em> SHA1 or SHA2 (SHA256) </em></strange>.
+</font>

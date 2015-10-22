@@ -1,0 +1,20 @@
+<h1> What you wanted to be encoded... </h1>
+
+<h2> SHA256 </h2>
+<font color="blue">
+<h3> <%= Digest::SHA256.hexdigest(params[:code]) %> </h3>
+</font>
+<h2> SHA1 </h2>
+<font color="blue">
+<h3> <%= Digest::SHA1.hexdigest(params[:code]) %> </h3>
+</font>
+<h2> SHA2 </h2>
+<font color="blue">
+<h3> <%= Digest::SHA2.hexdigest(params[:code]) %> </h3>
+</font>
+<h2> MD5 </h2>
+<font color="blue">
+<h3> <%= Digest::MD5.hexdigest(params[:code]) %> </h3>
+</font>
+
+<a href="/"> Back </a>
